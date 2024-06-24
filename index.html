@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content>
+    <title>Initial D wiki</title>
+
+    <link rel="canonical"
+      href="https://v5.getbootstrap.com/docs/5.0/examples/carousel/">
+
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous">
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+      integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+
+    <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    body {
+      padding-top: 3rem;
+      padding-bottom: 3rem;
+      color: #5a5a5a;
+    }
+
+    .carousel {
+      margin-bottom: 4rem;
+    }
+
+    .carousel-caption {
+      bottom: 3rem;
+      z-index: 10;
+    }
+
+    .carousel-item {
+      height: 32rem;
+    }
+
+    .carousel-item>img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 32rem;
+    }
+
+    .marketing .col-lg-4 {
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .marketing h2 {
+      font-weight: 400;
+    }
+
+    .marketing .col-lg-4 p {
+      margin-right: .75rem;
+      margin-left: .75rem;
+    }
+
+    .featurette-divider {
+      margin: 5rem 0;
+    }
+
+    .featurette-heading {
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -.05rem;
+    }
+
+    .top_btn {
+      display: grid;
+      place-items: center;
+    }
+
+    @media (min-width: 40em) {
+
+      .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+      }
+
+      .featurette-heading {
+        font-size: 50px;
+      }
+    }
+
+    @media (min-width: 62em) {
+      .featurette-heading {
+        margin-top: 7rem;
+      }
+    }
+
+  </style>
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Initial D</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+              <li class="nav-item active">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Stages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1"
+                  aria-disabled="true"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/wallpapers/1.jpg" alt="Wallpaper 1" width="100%"
+              height="100%">
+            preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <rect width="100%" height="100%" fill="#777" />
+
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1>About the series</h1>
+                <p>
+                  Initial D (Japanese: 頭文字イニシャル D, Hepburn: Inisharu Dī) is a
+                  Japanese street racing manga series written and
+                  illustrated by Shuichi Shigeno. It was serialized in
+                  Kodansha's seinen manga magazine Weekly Young Magazine from
+                  1995 to 2013, with the chapters collected into 48 tankōbon
+                  volumes.
+                  The story focuses on the world of illegal Japanese street
+                  racing, where all the action is concentrated in the mountain
+                  passes and
+                  rarely in cities or urban areas, and with the drifting racing
+                  style emphasized in particular. Professional race car driver
+                  and pioneer of
+                  drifting Keiichi Tsuchiya helped with editorial supervision.
+                  The story is centered on the prefecture of Gunma, more
+                  specifically on several mountains in the Kantō region and in
+                  their surrounding cities and towns. Although some of the names
+                  of the locations the characters race in have been
+                  fictionalized, all of the locations in the series are based on
+                  actual locations in Japan.
+                </p>
+                <p><a class="btn btn-lg btn-primary"
+                    href="https://initiald.fandom.com/wiki/Initial_D_Wiki"
+                    role="button">See more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/wallpapers/2.jpg" alt="Wallpaper 2" width="100%"
+              height="100%">
+            preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <rect width="100%" height="100%" fill="#777" />
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Stage 1</h1>
+                <p>The racing action in "Initial D" is spread across six
+                  distinct stages, each with its own unique challenges and
+                  character developments. The first stage serves as the
+                  introduction to the series, where we are introduced to the
+                  protagonist, Takumi Fujiwara,
+                  as he navigates the treacherous mountain passes of Akina. This
+                  initial stage sets the tone for the series and provides a
+                  glimpse into the world of street racing that lies ahead.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/wallpapers/3.jpg" alt="Wallpaper 3" width="100%"
+              height="100%">
+            preserveAspectRatio="xMidYMid slice" role="img" focusable="false">
+            <rect width="100%" height="100%" fill="#777" />
+            <div class="container">
+              <div class="carousel-caption text-right">
+                <h1>Stage 2</h1>
+                <p>As the series progresses into the second stage, Takumi faces
+                  new rivals and even more demanding racecourses within the
+                  scenic landscapes of Gunma Prefecture. The narrative continues
+                  to evolve, drawing viewers and readers deeper into the world
+                  of illegal racing and the intricate rivalries that define
+                  it.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button"
+          data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button"
+          data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div class="Character container">
+
+        <!-- Columns of the main characters -->
+        <div class="row">
+
+          <div class="col-lg-4">
+            <img src="img/avatar/1.jpg" alt="Fujiwara Takumi"
+              class="bd-placeholder-img rounded-circle" width="140"
+              height="140">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%"
+              fill="#777" dy=".3em"></text>
+
+            <h2>Fujiwara Takumi</h2>
+            <p>Takumi Fujiwara (藤原 拓海 Fujiwara Takumi, known as Tak in the
+              Tokyopop version) is the main protagonist of Initial D.
+              He acts as the delivery boy for his father's tofu business,
+              driving his father's Toyota Sprinter Trueno GT-APEX (AE86) up to
+              the top of the mountain every morning to deliver tofu to the
+              hotels for the day.
+              After defeating Keisuke Takahashi in an impromptu battle he was
+              nicknamed the "White Ghost of Akina" and began racing on his own,
+              occasionally representing
+              the Akina SpeedStars in battle. He was eventually invited to join
+              Project D as their downhill ace.</p>
+            <p><a class="btn btn-secondary"
+                href="https://initiald.fandom.com/wiki/Takumi_Fujiwara"
+                role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-lg-4">
+            <img src="img/avatar/2.jpg" alt="Takahashi Keisuke"
+              class="bd-placeholder-img rounded-circle" width="140"
+              height="140">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%"
+              fill="#777" dy=".3em"></text>
+
+            <h2>Takahashi Keisuke</h2>
+            <p>Keisuke Takahashi (高橋 啓介, Takahashi Keisuke, known as K.T. in the
+              Tokyopop version) is a major character in Initial D, and the
+              secondary protagonist of the Project D Arc.
+              An ex-bosozoku gang member, he was introduced to street racing by
+              his brother Ryosuke and joined his team, the Akagi RedSuns, and
+              soon became their second best driver in his Mazda
+              RX-7 Type R (FD3S). He and his brother are nicknamed
+              "The Rotary Brothers", as they both drive cars with rotary
+              engines. During the RedSuns expedition to Akina, he was
+              defeated by Takumi Fujiwara in an impromptu battle,
+              an event that helped kickstart Fujiwara's racing career and
+              created a rivalry between the two.</p>
+            <p><a class="btn btn-secondary"
+                href="https://initiald.fandom.com/wiki/Keisuke_Takahashi"
+                role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-lg-4">
+            <img src="img/avatar/3.png" alt="Takahashi Ryosuke"
+              class="bd-placeholder-img rounded-circle" width="140"
+              height="140">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#777" /><text x="50%" y="50%"
+              fill="#777" dy=".3em"></text>
+
+            <h2>Takahashi Ryosuke</h2>
+            <p>Ryosuke Takahashi (高橋 涼介, Takahashi Ryōsuke; known as Ry in the
+              Tokyopop version) is the founder, and leader of both the Akagi
+              RedSuns and Project D.
+              Famously nicknamed Akagi's White Comet (赤城の白い彗星, Akagi no Shiroi
+              Suisei), Ryosuke created the RedSuns with the purpose of
+              dominating the street racing scene all over Japan,
+              recruiting his brother Keisuke and others local to Mount Akagi to
+              achieve this goal.</p>
+            <p><a class="btn btn-secondary"
+                href="https://initiald.fandom.com/wiki/Ryosuke_Takahashi"
+                role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
+        <!-- Car section -->
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Toyota Sprinter Trueno <span
+                class="text-muted">(AE86)</span>
+            </h2>
+            <p class="lead">The AE86 series of the Toyota Corolla Levin and
+              Toyota Sprinter Trueno are small, front-engine/rear-drive models
+              within the fifth generation Corolla range — marketed by Toyota
+              from 1983 to 1987 in coupe and hatchback configurations. They were
+              the last Corollas to offer rear-wheel drive.
+
+              In classic Toyota code, the "A" represents the engine that came in
+              the car (4A series), "E" represents the Corolla, "8" represents
+              the fifth generation (E80 series) and "6" represents the variation
+              within this generation.
+
+              Toyota AE86 (Eight-Six, or Hachi-Roku) models are the most
+              prominent type of car in the Initial D series, the most iconic of
+              which is the Toyota Sprinter Trueno driven by Takumi Fujiwara and
+              his father, Bunta.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="img/cars/1.jpg" alt="AE86"
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="700" height="700" style="float: right; margin-top: 100px;">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%"
+              fill="#aaa" dy=".3em"></text>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Mazda RX-7 <span
+                class="text-muted">(FD)</span>
+            </h2>
+            <p class="lead">Keisuke Takahashi's Mazda RX-7 Type R (FD3S) (known
+              simply as the FD, or the FD3S), is one of the main vehicles in
+              Initial D.
+              It is driven by Keisuke Takahashi during his time as part of the
+              Akagi RedSuns, and later during his time in Project D.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="img/cars/2.png" alt="FD"
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="700" height="700" style="float: right; margin-top: 100px;">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%"
+              fill="#aaa" dy=".3em"></text>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Mazda Savanna RX-7 <span
+                class="text-muted">(FC)</span>
+            </h2>
+            <p class="lead">Ryosuke Takahashi's Mazda Savanna RX-7 (FC3S) (known
+              as the FC, FC3S or as the White Comet of Akagi) is one of the main
+              vehicles in the Initial D series.
+              It is used by Ryosuke Takahashi during his time as the White Comet
+              of Akagi, and later as the leader of the Akagi RedSuns before he
+              retires from racing to lead Project D.</p>
+          </div>
+          <div class="col-md-5">
+            <img src="img/cars/3.jpg" alt="FC"
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="700" height="700" style="float: right; margin-top: 100px;">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%"
+              fill="#aaa" dy=".3em"></text>
+          </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+      </div>
+
+      <!-- Footer -->
+      <footer class="container">
+        <p class="top_btn"><a href="#">To the top</a></p>
+      </footer>
+    </main>
+
+  </body>
+
+</html>
